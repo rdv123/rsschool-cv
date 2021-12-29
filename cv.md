@@ -15,3 +15,13 @@
 ## About Me
 
 I aм 33 years old. My main experience is in the field of sales development in companies in the construction market. But since the beginning of 2021, I have been actively studying the basics of programming and want to develop in this direction.
+
+## Skills
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- Bootstrap5
+- React-Redux
+- GIT
+- VSCode
