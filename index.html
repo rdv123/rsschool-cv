@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/pngwing.com.ico" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Spline+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <title>CV</title>
+    <script src=""></script>
+  </head>
+  <body>
+    <div class="wrapper" id="top">
+      <header>
+        <nav class="main-menu">
+          <ul class="burger-menu" id="burger-menu">
+            <li><a href="#top">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#code-example">Code example</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#languages">Languages</a></li>
+          </ul>
+          <a class="burger-toggle" id="burger-toggle" href="#">☰</a>
+        </nav>
+      </header>
+      <main>
+        <aside>
+          <figure class="main-photo">
+            <img
+              src="./assets/my-foto.png"
+              width="320"
+              height="427"
+              alt="Rozhkov Denis, Front-end developer"
+            />
+          </figure>
+          <section class="contact-info">
+            <h2>Contact info</h2>
+            <ul>
+              <li><strong>Location:</strong> Grodno, Belarus</li>
+              <li><strong>Phone:</strong> +375336214885</li>
+              <li>
+                <strong>Email:</strong>
+                <a href="mailto:rojkoff.d@gmail.com" target="_blank"
+                  >rojkoff.d@gmail.com</a
+                >
+              </li>
+              <li>
+                <strong>Linkedin:</strong>
+                <a href="www.linkedin.com/in/rozhkov-denis" target="_blank"
+                  >@rozhkov-denis</a
+                >
+              </li>
+              <li>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/rdv123" target="_blank">@rdv123</a>
+              </li>
+            </ul>
+          </section>
+        </aside>
+        <div class="main-info">
+          <h1>Denis Rozhkov</h1>
+          <span class="description">Junior Front-end developer</span>
+          <section id="about-me">
+            <h2>About Me</h2>
+            <div>
+              I aм 33 years old. My main experience is in the field of sales
+              development in companies in the construction market. But since the
+              beginning of 2021, I have been actively studying the basics of
+              programming and want to develop in this direction.
+            </div>
+          </section>
+          <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript (basic)</li>
+              <li>Bootstrap5</li>
+              <li>React-Redux</li>
+              <li>Git/GitHub</li>
+            </ul>
+          </section>
+          <section id="code-example">
+            <h2>Code Example</h2>
+
+            <pre><code>const fizzbuzz = (n) => {
+                  for (let i = 1; i <= n; i++) {
+                    // console.log(i);
+
+                    if (i % 3 == 0 || i % 5 == 0) {
+                      console.log("fizzbuzz");
+                    } else if (i % 5 == 0) {
+                      console.log("buzz");
+                    } else if (i % 3 == 0) {
+                      console.log("fizz");
+                    } else {
+                      console.log(i);
+                    }
+                  }
+                  return;
+                };
+                console.log(fizzbuzz(16)); //1,2,fizz,4,buzz</code></pre>
+          </section>
+          <section id="education">
+            <h2>Education</h2>
+            <h3>University</h3>
+            <ul>
+              <li>Yanka Kupala State University of Grodno</li>
+            </ul>
+            <h3>Courses</h3>
+            <ul>
+              <li>
+                JS, CSS, HTML - video courses on YouTube channel
+                <a
+                  href="https://www.youtube.com/channel/UCg8ss4xW9jASrqWGP30jXiw"
+                >
+                  <strong>Vladilen Minin</strong>
+                </a>
+              </li>
+              <li>
+                React-Redux - video courses on YouTube channel
+                <a
+                  href="https://www.youtube.com/channel/UCTW0FUhT0m-Bqg2trTbSs0g"
+                >
+                  <strong>IT-Kamasutra</strong>
+                </a>
+              </li>
+              <li>RS Schools Course «JavaScript/Front-end», 2021-2022</li>
+            </ul>
+          </section>
+          <section id="projects">
+            <h2>Projects</h2>
+            <figure class="project-item">
+              <a href="https://github.com/rdv123/todo2/" target="_blank"
+                ><img width="840" height="620" src="" alt="Todo List" />
+                <strong>Todo List</strong>
+              </a>
+            </figure>
+          </section>
+          <section id="languages">
+            <h2>Languages</h2>
+            <div><strong>English - A2</strong></div>
+            <div><strong>Russian - Native</strong></div>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <div>
+          <a href="https://github.com/rdv123/" target="_blank"></a>
+            <strong>Rozhkov Denis</strong>
+          </a>
+        </div>
+        <div>
+          <a href="https://rs.school/js-stage0/" target="_blank"
+            ><img src="./assets/svg/rss.svg" alt="logo-school" class="rss"
+          /></a>
+        </div>
+        <div class="footer-info">2022</div>
+      </footer>
+    </div>
+  </body>
+</html>
