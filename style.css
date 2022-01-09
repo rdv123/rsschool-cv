@@ -192,3 +192,7 @@ h1 {
 .rss {
   width: 141px;
 }
+
+.info-update {
+  font-size: small;
+}
